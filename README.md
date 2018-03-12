@@ -1,2 +1,3 @@
-# php-apollo-slim
-Flat-file blogging platform built on the slim framework
+# php-kadmon-slim
+
+Simple starting point for a slim project.
