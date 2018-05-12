@@ -11,7 +11,7 @@ $container['notFoundHandler'] = function ($container) {
 
         return $container['phpView']->render($response, 'layouts/default.php', [
             'view' => [
-                'template' => 'pages/404.php',
+                'template' => 'templates/404.php',
                 'data'     => [
                     'url' => $request->getRequestTarget()
                 ]

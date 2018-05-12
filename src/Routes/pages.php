@@ -9,7 +9,7 @@ $app->get('/', function(Request $request, Response $response) {
         'view' => [
             'template' => 'templates/home.php',
             'data'     => [
-                'view_variable' => 'test'
+                'view_variable' => 'This is a sample view variable'
             ]
         ]
     ]);

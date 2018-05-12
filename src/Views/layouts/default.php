@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Slim Kadmon</title>
-
     <link rel="stylesheet" href="/css/main.css">
-
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 </head>
 <body>
 
@@ -18,5 +15,8 @@
         ?>
     </div>
 
+    <div id="footer"></div>
+
+    <script src="/js/main.js"></script>
 </body>
 </html>
