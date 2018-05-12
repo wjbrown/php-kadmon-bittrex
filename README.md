@@ -9,7 +9,7 @@ This project is setup to more or less mirror a traditional php MVC framework, al
 Controller actions are defined directly as Routes `src/Routes`.  I've included a sample api.php if you need to make a dead-simple api endpoint, and I've also included a sample pages.php.  Notice that when you render a page, you need to pass the layout, the template and any data that you want to pass along.
 
 ##### Views
-Views are broken into a simple Layout/Page/Element structure.  Layouts wrap a single page and 0 or more elements.  Pages wrap 0 or more elements.
+Views are broken into a simple Layout/Page/Element structure.  They are located in `src/Views`.  Layouts wrap a single page and 0 or more elements.  Pages wrap 0 or more elements.
 
 ### To Install
 
