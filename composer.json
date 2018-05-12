@@ -1,7 +1,20 @@
 {
+    "name": "wjbrown/kadmon-slim",
+    "description": "Starting from Slim",
+    "keywords": ["slim"],
+    "homepage": "https://github.com/wjbrown/php-kadmon-slim",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josh Brown",
+            "email": "wjbrown@gmail.com"
+        }
+    ],
     "require": {
+        "php": "^5.3 || ^7.0",
         "slim/slim": "^3.0",
         "slim/php-view": "^2.2",
-        "slim/http-cache": "^0.4.0"
+        "gentle/bitbucket-api": "^1.1",
+        "vlucas/phpdotenv": "^2.4"
     }
 }

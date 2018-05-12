@@ -7,6 +7,9 @@ define('ROOT_PATH', dirname(dirname(__FILE__)));
 define('SRC_PATH', ROOT_PATH . DS . 'src');
 define('VIEW_PATH', SRC_PATH . DS . 'Views');
 
+$dotenv = new Dotenv\Dotenv(ROOT_PATH);
+$dotenv->load();
+
 require ROOT_PATH . DS . 'vendor/autoload.php';
 
 $app = new \Slim\App([
