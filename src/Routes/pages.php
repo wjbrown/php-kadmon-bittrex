@@ -7,9 +7,16 @@ $app->get('/', function(Request $request, Response $response) {
     // render the layout/view
     return $this->phpView->render($response, 'layouts/default.php', [
         'view' => [
-            'template' => 'templates/home.php',
+            'template' => 'pages/home.php',
             'data'     => [
-                'view_variable' => 'This is a sample view variable'
+                'page_title' => 'This is the Home Page',
+                'a_random_list' => [
+                    'the dreamscape',
+                    'the subtle world',
+                    'the inbetween',
+                    'the upside-down',
+                    'the other side'
+                ]
             ]
         ]
     ]);
